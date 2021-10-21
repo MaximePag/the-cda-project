@@ -16,7 +16,7 @@ class Pages extends Controller
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
-
+    
         $data['title'] = ucfirst($page); // Capitalize the first letter
 
         echo view('parts/header', $data);

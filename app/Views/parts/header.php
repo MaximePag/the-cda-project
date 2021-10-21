@@ -1,6 +1,4 @@
-<!DOCTYPE HTML>
-
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <title>Immo'Magic!</title>
@@ -17,14 +15,6 @@
 <h1><?= esc($title) ?></h1> <!-- esc() fction globale fournie par CI pour aider à prevenir des attaques CSS -->
 <div class="container">
     <div id="immo'magic">
-        <img src="img/magic.png"/>
-        <img src="assets/img/logo.jpg"/>
         <h1 style="text-align:center">Immo'Magic</h1>
-        <h1><b>Le bien de vos rêves est là!</b></h1>
-        <i class="fas fa-heart"></i>
-        <i class="fas fa-user-circle"></i>
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fas fa-search-location"></i>
     </div>
 </div>
